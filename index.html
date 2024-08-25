@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador e codificador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/bd60f0a281cc1f410cdbc6be82b757fa-pixel-art-urso.webp" type="image/x-icon">
+</head>
+
+<body>
+
+    <main class="main-container">
+        <header class="cabecalho">
+            <img src="img/bd60f0a281cc1f410cdbc6be82b757fa-pixel-art-urso.webp" alt="cachorro">
+            <h1>Mensagem Codificada</h1>
+        </header>
+
+        <div class="container-input">
+            <div class="input">
+                <textarea id="input-texto" placeholder="Digite o seu texto aqui..."></textarea>
+                <p>ATENÇÃO: apenas letras maiúsculas e sem acento</p>
+
+            </div>
+            <div id="output">
+                <img src="img/bd60f0a281cc1f410cdbc6be82b757fa-pixel-art-urso.webp" alt="Cachorro">
+                <h2>Sua Mensagem aparecerá aqui</h2>
+                <span>Digite um texto que deseja criptografar ou descriptografar</span>
+
+            </div>
+
+        </div>
+
+        <div class="buttons">
+            <div class="container-bnt">
+                <button onclick="criptografar()" class="btn-criptografar">criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">descriptografar</button>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="rodape">
+        <h3>Desenvolvido por Mateus Silva</h3>
+    </footer>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
